@@ -3,5 +3,4 @@
 # 88 is Black's default line length
 max-line-length = 128
 
-exclude = polls/*
-exclude = mysite/*
+exclude = polls/*, mysite/*
