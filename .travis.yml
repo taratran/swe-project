@@ -13,7 +13,7 @@ before_script:
 script:
 #   - black --check .
 #   - flake8 .
-  - coverage run --source=swe-project,manage.py test
+  - coverage run --source=swe-project, manage.py 
 
 after_script:
   - coveralls
