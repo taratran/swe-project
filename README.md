@@ -1,1 +1,1 @@
-https://travis-ci.com/taratran/swe-project.svg?branch=master
+[![Build Status](https://travis-ci.com/taratran/swe-project.svg?branch=master)]
