@@ -11,9 +11,9 @@ before_script:
   - python manage.py collectstatic --noinput
 
 script:
-#   - black --check .
-#   - flake8 .
-  - coverage run --source=swe-project, manage.py 
+  - black --check 
+  - flake8 
+  - coverage run --source=swe-project, manage.py test mysite
 
 after_script:
   - coveralls
